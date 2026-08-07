@@ -1,0 +1,14 @@
+Variable names and values when creating are in this file,add em all!
+
+cash:User's cash value for economy commands
+
+welcomechannel:Where our welcome channel id wilm be stored,recommended for public bots
+
+clicks:Optional,for who used the clicker game script
+
+streak:If you want to add streak on daily rewards
+
+suggestionchannel:If you wanna do a suggestions channel,recommended for public bots (we'll store channel id in it)
+
+confessionchannel:If you want a confessions system,for public bots  (same task,storing channel id)
+
