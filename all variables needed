@@ -12,3 +12,4 @@ suggestionchannel:If you wanna do a suggestions channel,recommended for public b
 
 confessionchannel:If you want a confessions system,for public bots  (same task,storing channel id)
 
+gbchannel:Used for a separate goodbye channel,if you want welcome-gb in same channel just dont create this variable use the welcome variable instead
