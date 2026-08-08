@@ -1,0 +1,40 @@
+---Welcome---
+Trigger: $onJoined[channel id here,the welcome channel]
+you can just use a variable for public ones.You can Find set welcome channel down below.
+/// Code ///
+$nomention
+$color[#FFA500]
+$title[Welcome,<@$authorID>]
+$description[<@$authorID> joined us.
+
+📖Read the rules
+🎮Try the bots
+💬Communicate with the people
+ID:$authorID | $username]
+$footer[$randomText[Feel free to explore the channels!;You can ask staff for help!;Chat with people!;Thanks for joining us!]]
+
+---Set Welcome Channel---
+If its a private bot;you can just paste the welcome channel ID
+If its a public bot;we need the variable named "welcomechannel".
+1.Create a command
+Trigger:ssetwelcome
+2.Here is the code
+/// Code ///
+$nomention
+$setServerVar[welcomechannel;$mentionedChannels[1]]
+$color[#FFA500]
+$title[Success]
+$description[Set the welcome channel to <#$mentionedChannels[1]>]
+
+---Goodbye System---
+Gb system uses $onLeave[channel id]
+It's same as the welcome systema
+If its private;Paste gb channel id,it can be same as welcome tho
+If its public;
+Way 1:
+Do it with same code on welcome and same channel, id stored variable,just change some text
+
+Way 2:
+Do it with a separated channel and variable "gbchannel"
+
+NO NEED CREDIT,FREE TO USE.
